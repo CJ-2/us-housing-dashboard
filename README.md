@@ -45,9 +45,9 @@ The dashboard will be accessible at http://localhost:8501
 📁 Project Structure
 ```bash
 us-housing-dashboard/
-├── app.py                  # Landing page (storytelling + objectives)
+├── Home.py                  # Landing page (storytelling + objectives)
 ├── pages/
-│   └── 1_Dashboard.py      # Main dashboard
+│   └── Dashboard.py      # Main dashboard
 ├── data/
 │   └── housing.csv         # Raw dataset
 ├── models/                 # (optional) Trained models or scripts
