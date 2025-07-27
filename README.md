@@ -44,16 +44,35 @@ The dashboard will be accessible at http://localhost:8501
 
 📁 Project Structure
 ```bash
-us-housing-dashboard/
-├── Home.py                  # Landing page (storytelling + objectives)
-├── pages/
-│   └── Dashboard.py      # Main dashboard
-├── data/
-│   └── housing.csv         # Raw dataset
-├── models/                 # (optional) Trained models or scripts
-├── utils/                  # Helper functions and pipelines
-├── requirements.txt
-└── README.md
+us‑housing‑dashboard/
+│
+├─ Home.py                      
+│
+├─ pages/
+│   └─ Dashboard.py          
+│
+├─ data/
+│   └─ USA_Housing_Dataset.csv 
+│
+├─ core/                        
+│   ├─ __init__.py
+│   ├─ loader.py                
+│   ├─ filters.py               
+│   └─ stats.py                 
+│
+├─ viz/                         
+│   ├─ __init__.py
+│   ├─ city.py
+│   ├─ city_map.py
+│   ├─ correlation.py
+│   ├─ sqft.py
+│   ├─ condition.py
+│   ├─ renovation.py
+│   └─ build_year.py
+│
+├─ requirements.txt
+└─ README.md
+
 ```
 📊 Data Description
 
