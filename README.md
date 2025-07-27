@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 ▶️ Run the App
 ```bash
-streamlit run app.py
+streamlit run Home.py
 ```
 The dashboard will be accessible at http://localhost:8501
 
